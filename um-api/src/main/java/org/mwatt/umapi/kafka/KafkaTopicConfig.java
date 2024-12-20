@@ -13,7 +13,7 @@ import java.util.Map;
 @Configuration
 public class KafkaTopicConfig {
 
-    //@Value;
+    @Value("")
     private String bootstrapAddress;
 
     @Bean
